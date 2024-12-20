@@ -546,7 +546,7 @@ namespace GameVanilla.Game.Scenes
             }
 
             var zoomLevel = gameConfig.GetZoomLevel();
-            mainCamera.orthographicSize = (totalWidth * zoomLevel) * (Screen.height / (float)Screen.width) * 0.5f;
+            mainCamera.orthographicSize = (totalWidth * zoomLevel) * (Screen.width / (float)Screen.height) * 0.5f;
 
             OpenPopup<LevelGoalsPopup>("Popups/LevelGoalsPopup", popup => popup.SetGoals(level.goals));
         }
