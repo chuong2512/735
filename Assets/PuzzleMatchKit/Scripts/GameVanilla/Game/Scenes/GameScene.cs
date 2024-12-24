@@ -20,6 +20,7 @@ using GameVanilla.Game.Popups;
 
 namespace GameVanilla.Game.Scenes
 {
+    
     /// <summary>
     /// This class contains the logic associated to the game scene.
     /// </summary>
